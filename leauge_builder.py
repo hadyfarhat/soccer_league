@@ -66,7 +66,7 @@ def write_players(player_list, file):
         file.write("{}\n".format(", ".join(player)))
 
 
-
+# write all teams lists in teams.txt file
 def write_file():
     if os.path.isfile("teams.txt"):
         os.remove("teams.txt")
